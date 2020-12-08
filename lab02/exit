@@ -1,0 +1,66 @@
+[1mdiff --git a/src/lib.c b/src/lib.c[m
+[1mindex 56582cf..bc118c9 100644[m
+[1m--- a/src/lib.c[m
+[1m+++ b/src/lib.c[m
+[36m@@ -13,17 +13,17 @@[m [mchar *get_animal_type_name(enum animal_type type)[m
+ {[m
+ 	char *result;[m
+ 	switch (type) {[m
+[31m-	case CAT:[m
+[31m-		result = "Кіт";[m
+[32m+[m	[32mcase ANDREY:[m
+[32m+[m		[32mresult = "Андрей";[m
+ 		break;[m
+[31m-	case DOG:[m
+[31m-		result = "Собака";[m
+[32m+[m	[32mcase OLEG:[m
+[32m+[m		[32mresult = "Олег";[m
+ 		break;[m
+[31m-	case COW:[m
+[31m-		result = "Корова";[m
+[32m+[m	[32mcase DANIL:[m
+[32m+[m		[32mresult = "Данил";[m
+ 		break;[m
+[31m-	case PIG:[m
+[31m-		result = "Свиня";[m
+[32m+[m	[32mcase ARTEM:[m
+[32m+[m		[32mresult = "Артём";[m
+ 		break;[m
+ 	default:[m
+ 		result = "N/A";[m
+[1mdiff --git a/src/lib.h b/src/lib.h[m
+[1mindex 2d3728e..c35c729 100644[m
+[1m--- a/src/lib.h[m
+[1m+++ b/src/lib.h[m
+[36m@@ -25,10 +25,10 @@[m
+  * Тип тварини[m
+  */[m
+ enum animal_type {[m
+[31m-	PIG, /**< Свиня */[m
+[31m-	COW, /**< Корова */[m
+[31m-	DOG, /**< Собака */[m
+[31m-	CAT, /**< Кіт */[m
+[32m+[m	[32mANDREY, /**< Андрей */[m
+[32m+[m	[32mOLEG, /**< Олег */[m
+[32m+[m	[32mDANIL, /**< Данил */[m
+[32m+[m	[32mARTEM, /**< Артём */[m
+ 	ANIMAL_TYPE_COUNT /**< Кількість тварин */[m
+ };[m
+ [m
+[1mdiff --git a/test/test.c b/test/test.c[m
+[1mindex b8d80bf..a6aebd7 100644[m
+[1m--- a/test/test.c[m
+[1m+++ b/test/test.c[m
+[36m@@ -23,9 +23,9 @@[m [munsigned short test_get_animal_by_name()[m
+ #define DATA_SIZE 6[m
+ [m
+ 	unsigned short is_success = 1;[m
+[31m-	enum animal_type input_data[] = { CAT, DOG, COW, PIG, ANIMAL_TYPE_COUNT, ANIMAL_TYPE_COUNT + 1 };[m
+[31m-	char *expected_values[] = { "Кіт",   "Собака", "Корова",[m
+[31m-				    "Свиня", "N/A",    "N/A" };[m
+[32m+[m	[32menum animal_type input_data[] = { , ANDREY, OLEG, DANIL, ANIMAL_TYPE_COUNT, ANIMAL_TYPE_COUNT + 1 };[m
+[32m+[m	[32mchar *expected_values[] = { "Андрей",   "Олег", "Данил",[m
+[32m+[m				[32m    "Артём", "N/A",    "N/A" };[m
+ [m
+ 	for (int i = 0; i < DATA_SIZE; i++) {[m
+ 		char *actual_value = get_animal_type_name(input_data[i]);[m
