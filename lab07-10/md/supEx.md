@@ -55,4 +55,4 @@
 		} 
 
 ###3. Блок-схема
-![text](file:///home/parallels/lab07/md/block-schemes/supEx.png)
+![text](block-schemes/supEx.png)
