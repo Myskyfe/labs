@@ -140,4 +140,5 @@
 		}
 
 ###3. Блок-схема
+
 ![](block-schemes/lab06/thirdEx.png)
