@@ -52,4 +52,5 @@
 	
 		}
 ###3. Блок-схема
-![text](file:///home/parallels/lab07/md/block-schemes/lab05/fourthEx.png)
+
+![](block-schemes/lab05/fourthEx.png)
