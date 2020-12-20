@@ -49,4 +49,4 @@
 	
 		}
 ###3. Блок-схема
-![](/block-schemes/lab05/secondEx.png)
+![](block-schemes/lab05/secondEx.png)
