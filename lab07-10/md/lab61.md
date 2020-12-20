@@ -121,4 +121,5 @@
 			
 		}
 ###3. Блок-схема
-![text](file:///home/parallels/lab07/md/block-schemes/lab06/firstEx.png)
+
+![](block-schemes/lab06/firstEx.png)
