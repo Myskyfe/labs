@@ -44,4 +44,5 @@
 	
 		}
 ###3. Блок-схема
+
 ![](block-schemes/lab05/fifthEx.png)
