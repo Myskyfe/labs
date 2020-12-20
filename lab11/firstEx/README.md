@@ -1,4 +1,4 @@
-##Варіант №1
+#Варіант №1
 
 За формулою: Nt = ((5-1)%4) + 1 = 1
 
@@ -108,7 +108,7 @@
 
 #  Блок-схема
 
-![text](file:///home/parallels/lab11/firstEx/block-scheme/firstEx.png)
+![](block-scheme/firstEx.png)
 
 #  Висновок
 
