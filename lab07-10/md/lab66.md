@@ -106,4 +106,4 @@
 
 ###3. Блок-схема
 
-![](block-schemes/lab06/fifthEx.png)
+![](block-schemes/lab06/sixEx.png)
