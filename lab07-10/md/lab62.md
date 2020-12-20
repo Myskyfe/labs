@@ -49,4 +49,5 @@
 			
 		}
 ###3. Блок-схема
+
 ![](block-schemes/lab06/secondEx.png)
