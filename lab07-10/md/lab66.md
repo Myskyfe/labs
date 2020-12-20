@@ -105,4 +105,5 @@
 		}
 
 ###3. Блок-схема
-![text](file:///home/parallels/lab07/md/block-schemes/lab06/fifthEx.png)
+
+![](block-schemes/lab06/fifthEx.png)
