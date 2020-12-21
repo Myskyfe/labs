@@ -3,9 +3,7 @@
 
 int main(void)
 {
-	char text[] = "Ермаков,Ленин,Ефимов,Ленин,Ефимов,Косторышев";
-
-	printf("%s\n", text);
+    char text[] = "Ермаков,Ленин,Ефимов,Ленин,Ефимов,Косторышев";
 
     char finalString[sizeof(text)/sizeof(char)-4];
 
@@ -45,10 +43,11 @@ int main(void)
 	    strcat(finalString, text);
 	}
 
-    printf("\n\n");
-    printf("Конечный список фамилий: \n");
+        printf("\n\n");
+        printf("Конечный список фамилий: \n");
 	printf("%s\n", finalString);
-return 0;
+        
+	return 0;
 }
 
 
