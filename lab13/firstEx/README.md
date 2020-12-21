@@ -82,7 +82,7 @@
 
 #  Блок-схема
 
-![]block-scheme/firstEx.png)
+![](block-scheme/firstEx.png)
 
 #  Висновок
 
