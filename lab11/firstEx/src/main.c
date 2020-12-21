@@ -1,3 +1,9 @@
+/**
+*@author Ermakov Matthew
+*@date 20.12.2020
+*@version 0.1
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
